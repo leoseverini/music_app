@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="67.66mm" height="14.67mm" viewBox="8.5358 -0.0240 38.5007 8.3500">
+<line transform="translate(8.5358, 5.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="38.4507" y2="0.0000"/>
+<line transform="translate(8.5358, 4.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="38.4507" y2="0.0000"/>
+<line transform="translate(8.5358, 3.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="38.4507" y2="0.0000"/>
+<line transform="translate(8.5358, 2.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="38.4507" y2="0.0000"/>
+<line transform="translate(8.5358, 1.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="38.4507" y2="0.0000"/>
+<rect transform="translate(0.0000, 6.7760)" x="13.5718" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 6.7760)" x="29.8047" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 6.7760)" x="32.4272" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 7.7760)" x="32.4272" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 6.7760)" x="35.4229" y="-0.1000" width="2.0850" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 6.7760)" x="40.4635" y="-0.1000" width="2.9700" height="0.2000" ry="0.1000" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:4:36:37">
+<path transform="translate(35.7704, 7.2760) scale(0.0040, -0.0040)" d="M315 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -77 -40 -114 -64s-84 -53 -104 -78c-7 -8 -11 -18 -11 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 78 40 115 64s84 53 104 78c7 8 10 18 10 28zM264 137c47 0 83 -21 83 -72c0 -19 -4 -37 -10 -56
+c-12 -38 -32 -74 -65 -96c-54 -36 -113 -51 -188 -51c-47 0 -84 22 -84 73c0 19 5 37 11 56c12 38 31 74 64 96c54 36 114 50 189 50z" fill="currentColor"/>
+</a>
+<rect transform="translate(37.0954, 3.7760)" x="-0.0650" y="0.0000" width="0.1300" height="3.2386" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:4:29:30">
+<path transform="translate(30.1337, 6.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(31.3849, 3.7760)" x="-0.0650" y="-0.5000" width="0.1300" height="3.3122" ry="0.0400" fill="currentColor"/>
+<path transform="translate(31.4499, 3.3160) scale(0.0040, -0.0040)" d="M0 0c0 -198 209 -335 209 -533c0 -71 -16 -141 -42 -207c-5 -8 -12 -12 -19 -12c-13 0 -26 11 -23 27c26 61 42 126 42 192c0 104 -95 208 -167 283h-16v250h16z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:4:33:34">
+<path transform="translate(32.7562, 7.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(34.0074, 3.7760)" x="-0.0650" y="0.0000" width="0.1300" height="3.8122" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:4:39:40">
+<path transform="translate(40.9585, 6.7760) scale(0.0040, -0.0040)" d="M215 112c-50 0 -69 -43 -69 -88c0 -77 57 -136 134 -136c50 0 69 43 69 88c0 77 -57 136 -134 136zM495 0c0 -43 -35 -76 -73 -97c-53 -30 -113 -41 -174 -41s-122 11 -175 41c-38 21 -73 54 -73 97s35 76 73 97c53 30 114 41 175 41s121 -11 174 -41
+c38 -21 73 -54 73 -97z" fill="currentColor"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:4:17:18">
+<path transform="translate(20.1793, 5.2760) scale(0.0040, -0.0040)" d="M315 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -77 -40 -114 -64s-84 -53 -104 -78c-7 -8 -11 -18 -11 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 78 40 115 64s84 53 104 78c7 8 10 18 10 28zM264 137c47 0 83 -21 83 -72c0 -19 -4 -37 -10 -56
+c-12 -38 -32 -74 -65 -96c-54 -36 -113 -51 -188 -51c-47 0 -84 22 -84 73c0 19 5 37 11 56c12 38 31 74 64 96c54 36 114 50 189 50z" fill="currentColor"/>
+</a>
+<rect transform="translate(21.5043, 3.7760)" x="-0.0650" y="-2.0000" width="0.1300" height="3.2386" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:4:9:10">
+<path transform="translate(13.9008, 6.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<path transform="translate(9.3358, 4.7760) scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:7:2:3">
+</a>
+<rect transform="translate(15.1520, 3.7760)" x="-0.0650" y="-0.5000" width="0.1300" height="3.3122" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:4:13:14">
+<path transform="translate(17.1651, 5.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(18.4162, 3.7760)" x="-0.0650" y="-1.5000" width="0.1300" height="3.3122" ry="0.0400" fill="currentColor"/>
+<path transform="translate(28.7977, 2.8160) scale(0.0040, -0.0040)" d="M0 0c0 -198 209 -335 209 -533c0 -71 -16 -141 -42 -207c-5 -8 -12 -12 -19 -12c-13 0 -26 11 -23 27c26 61 42 126 42 192c0 104 -95 208 -167 283h-16v250h16z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:4:25:26">
+<path transform="translate(27.4815, 6.2760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(28.7327, 3.7760)" x="-0.0650" y="-1.0000" width="0.1300" height="3.3122" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/base.ly:4:21:22">
+<path transform="translate(24.4673, 5.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(25.7185, 3.7760)" x="-0.0650" y="-1.5000" width="0.1300" height="3.3122" ry="0.0400" fill="currentColor"/>
+</svg>

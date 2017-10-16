@@ -1,0 +1,75 @@
+<div ng-controller="keyboardCtrl" class="keyboard">
+
+    <div class="woodDiv">
+
+        <div ng-repeat="btn in tempoButtons"
+             class="tempoButton"
+             ng-click="selectTempo($index);"
+             ng-class="{selected: $index == tempoSelected} "
+        >
+            <img src="application/images/time_{{btn}}.png">
+        </div>
+
+        <div class="funcButtonsDiv">
+            <div ng-repeat="mode in noteModes"
+                 class="tempoButton"
+                 ng-click="selectNoteMode($index);"
+                 ng-class="{selected: $index == noteModeSelected} "
+            >
+                <img src="application/images/{{mode}}.png">
+            </div>
+        </div>
+
+
+        <div class="funcButtonsDiv">
+            <div class="tempoButton"
+                 ng-mousedown="removePress(true);"
+                 ng-mouseup="removePress(false);"
+                 ng-class="{selected: removePressed} "
+            >
+                <img src="application/images/remove.png">
+            </div>
+
+            <div class="tempoButton"
+                 ng-mousedown="deletePress(true);"
+                 ng-mouseup="deletePress(false);"
+                 ng-class="{selected: deletePressed} "
+            >
+                <img src="application/images/delete.png">
+            </div>
+        </div>
+    </div>
+
+    <ls-keyboard on-key-pressed="keyPressed(insideVal);">
+
+
+    </ls-keyboard>
+
+    <div class="flexHor flexCenter projectPreviewImage" ng-click="a.createPreview();">
+        <img height="100px" ng-src="{{a.imagePreviewSrc}}"/>
+    </div>
+
+    <div class="woodDiv">
+        <div style="margin: 10px;">
+            <div>Scale:</div>
+            <div>
+                <select style="color:black">
+                    <option style="color:black" value="0">Mayor</option>
+                    <option style="color:black" value="1">Minor</option>
+                </select>
+            </div>
+        </div>
+
+        <div style="margin: 10px;">
+            <div>Finalis:</div>
+            <div>
+                <select style="color:black">
+                    <option ng-repeat="fin in finalisList[noteModeSelected]" style="color:black" value="$index">{{fin}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div>{{noteList}}</div>
+
+</div>

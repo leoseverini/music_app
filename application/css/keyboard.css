@@ -1,0 +1,69 @@
+.keyboard .keyboardDiv {
+  position: relative;
+  height: 130px;
+  width: 616px;
+  background-color: white;
+}
+.keyboard .keyboardDiv .keyboardWood {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  height: 37px;
+  width: 616px;
+  background: url("../images/piano_wood.png");
+}
+.keyboard .keyboardDiv .whiteKey {
+  position: absolute;
+  height: 110px;
+  width: 22px;
+  background: url("../images/key_white_normal.png");
+}
+.keyboard .keyboardDiv .whiteKey:hover {
+  background: url("../images/key_white_over.png");
+}
+.keyboard .keyboardDiv .whiteBlack {
+  position: absolute;
+  height: 78px;
+  width: 12px;
+  background: url("../images/key_black_normal.png");
+}
+.keyboard .keyboardDiv .whiteBlack:hover {
+  background: url("../images/key_black_over.png");
+}
+.woodDiv {
+  display: flex;
+  flex-direction: row;
+  height: 62px;
+  width: 616px;
+  background: url("../images/wood.png");
+}
+.funcButtonsDiv {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.tempoButton {
+  height: 40px;
+  width: 40px;
+  background-color: brown;
+  border: solid 2px white;
+  border-radius: 20px;
+  margin: 5px;
+  box-shadow: 10px 10px 20px -6px #000000;
+  transition: all 0.2s;
+}
+.tempoButton:hover {
+  background-color: #c98586;
+}
+.tempoButton.selected {
+  margin-top: 12px;
+  border-color: #c98586;
+  background-color: #630003;
+  box-shadow: 5px 5px 17px 0px #000000;
+}
+.projectPreviewImage {
+  width: 616px;
+  height: 120px;
+  background-color: white;
+  background: url("../images/paper.png");
+}

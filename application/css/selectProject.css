@@ -1,0 +1,91 @@
+.selectProjectContainer input {
+  padding: 3px;
+  width: 200px;
+  border-radius: 5px;
+  height: 20px;
+  color: black;
+}
+.selectProjectContainer input[type="checkbox"] {
+  width: 20px;
+}
+.selectProjectContainer textarea {
+  border-radius: 5px;
+  color: black;
+}
+.selectProjectContainer .divSeparator {
+  border-bottom: solid 1px #b3b3b3;
+  padding-bottom: 5px;
+}
+.selectProjectContainer .title {
+  font-size: 30px;
+}
+.selectProjectContainer .projectContainer {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 120px);
+}
+.selectProjectContainer .projectContainer .projectSelect {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-right: solid 1px #b3b3b3;
+}
+.selectProjectContainer .projectContainer .projectSelect .projectItem {
+  cursor: pointer;
+  height: 30px;
+  width: 200px;
+  padding: 5px;
+}
+.selectProjectContainer .projectContainer .projectSelect .projectItem * {
+  color: white;
+}
+.selectProjectContainer .projectContainer .projectSelect .projectItem:hover {
+  background-color: #b3b3b3;
+}
+.selectProjectContainer .projectContainer .projectSelect .projectItem:hover * {
+  color: black;
+}
+.selectProjectContainer .projectContainer .projectSelect .projectItem .projectItemName {
+  font-weight: bold;
+}
+.selectProjectContainer .projectContainer .projectSelect .projectItem .projectItemDescription {
+  font-weight: normal;
+  font-size: 12px;
+}
+.selectProjectContainer .projectContainer .projectItemSelected {
+  background-color: white;
+  cursor: pointer;
+  height: 30px;
+  width: 200px;
+  padding: 5px;
+}
+.selectProjectContainer .projectContainer .projectItemSelected * {
+  color: black;
+}
+.selectProjectContainer .projectContainer .projectProperties {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.selectProjectContainer .projectContainer .projectProperties .propertiesTitle {
+  font-size: 20px;
+  padding: 10px;
+}
+.selectProjectContainer .projectContainer .projectProperties .propertiesContent {
+  padding: 10px;
+}
+.selectProjectContainer .projectContainer .projectProperties .propertiesName {
+  font-size: 13px;
+  width: 100px;
+  padding: 10px;
+}
+.selectProjectContainer .projectContainer .projectProperties .propertiesNameCb {
+  font-size: 13px;
+  padding-left: 10px;
+}
+.selectProjectContainer .projectContainer .projectProperties .projectPreviewImage {
+  width: 616px;
+  height: 120px;
+  background-color: white;
+  background: url("../images/paper.png");
+}

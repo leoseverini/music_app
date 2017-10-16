@@ -1,0 +1,7 @@
+<div ng-controller="showResultsCtrl" class="mainDiv">
+    <h1 ng-click="readFiles();">Results</h1>
+    <div ng-repeat="image in images">
+        <h3>{{image}}</h3>
+        <img src="{{image}}"/>
+    </div>
+</div>

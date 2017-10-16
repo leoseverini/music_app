@@ -1,0 +1,34 @@
+{
+    "name": "Rules Name",
+    "description": "Rules description",
+    "rules": {
+        "intervals": {
+            "1d": 1.0,
+            "1c": 0.3,
+            "2d": 0.3,
+            "2c": 0.3,
+            "3d": 1.0,
+            "3c": 0.5,
+            "4d": 0.7,
+            "4c": 0.5,
+            "5": 1.0,
+            "6d": 0.7,
+            "6c": 0.4,
+            "7d": 0.7,
+            "7c": 0.5,
+            "8": 1.0
+        },
+        "parallels_intervals": {
+            "3": 0.5,
+            "5": 0.3,
+            "8": 0.2
+        },
+        "parallels_movement": {
+            "m2": 0.8,
+            "m3": 0.5,
+            "m4": 0.4
+        },
+        "cross_melody": 0.5,
+        "up_beat_factor": 0.2
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name":"Lassus Other Motet", 
+    "author":"Orlando di Lasso",   
+    "description":"Lassus Dominus scit cogitationes hominum",    
+    "options": {
+        "transposition_chromatic": true,
+        "transposition_diatonic": false,
+        "inversion_chromatic": false,
+        "inversion_diatonic": true,
+        "shifts": true,
+        "augmentation": false,
+        "diminution":true
+    }
+}

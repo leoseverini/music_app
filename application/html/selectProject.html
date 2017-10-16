@@ -1,0 +1,46 @@
+<div ng-controller="selectProjectCtrl" class="selectProjectContainer">
+
+    <div class="title divSeparator">Projects</div>
+
+    <div class="projectContainer">
+        <div class="projectSelect">
+            <div class="divSeparator">
+                <input placeholder="search" ng-model="projectFilter.name"/>
+            </div>
+
+            <div class="flexHor flexHCenter">
+                <div class="projectSelectAdd"
+                     ng-click="CreateNewProject();"
+                >
+                    <img src="images/add.png"/>
+                </div>
+
+                <div class="projectSelectAdd"
+                     ng-click="RemoveSelectedProject();"
+                >
+                    <img src="images/remove.png"/>
+                </div>
+            </div>
+
+            <div style="overflow-y: auto; height: 400px;">
+                <div ng-repeat="project in projects | filter: projectFilter">
+                    <div ng-class="{
+                                    'projectItem': selectProjectIndex != $index,
+                                    'projectItemSelected': selectProjectIndex == $index
+                                }"
+                         ng-click="selectProject($index);">
+
+                        <div class="projectItemName">{{project.name}}</div>
+                        <div class="projectItemDescription">{{project.author}}</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="projectProperties">
+            <div ng-include="'application/html/projectProperties.html'"></div>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="mainModule">
+<head>
+    <meta charset="utf-8">
+    <title>Analisys Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="application/css/main.css">
+    <link rel="stylesheet" href="application/css/selectProject.css">
+    <link rel="stylesheet" href="application/css/keyboard.css">
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/soundfont-player/dist/soundfont-player.min.js"></script>
+    <script src="application/js/main.js"></script>
+    <script src="application/js/lsKeyboard.js"></script>
+
+    <script src="application/js/selectProject.js"></script>
+    <script src="application/js/keyboard.js"></script>
+</head>
+
+<body ng-controller="appCtrl">
+<div class="draggableStrip">
+    Music Analisys
+</div>
+
+<div class="dialogDiv" ng-if="mainProperties.showDialog"></div>
+
+
+<div class="dialogBox" ng-if="mainProperties.showDialog">
+    <div class="dialogBoxTitle">
+        {{mainProperties.dialog.title}}
+        <div class="dialogBoxcloseButton mousePointer" ng-click="mainProperties.dialog.closeButton();"><img
+                src="images/close.png"/></div>
+    </div>
+    <div class="dialogContent">
+        <div ng-include="mainProperties.dialog.content"></div>
+    </div>
+</div>
+
+
+<div class="mainDiv">
+    <div ng-include="appUrlContent"></div>
+</div>
+
+<!--<div class="mainDiv">-->
+<!--<div ng-include="'application/html/keyboard.html'"></div>-->
+<!--</div>-->
+
+<div class="closeButtonDiv mousePointer" ng-click="closeApp();"><img src="images/close.png"/></div>
+</body>
+</html>
+

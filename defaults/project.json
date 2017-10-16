@@ -1,0 +1,14 @@
+{
+    "name":"New Project", 
+    "author":"Leonardo Severini",
+    "description":"New Project",    
+    "options": {
+        "transposition_chromatic": true,
+        "transposition_diatonic": true,
+        "inversion_chromatic": true,
+        "inversion_diatonic": true,
+        "shifts": true,
+        "augmentation": true,
+        "diminution":true
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name":"Lasso Dominus scit", 
+    "author":"Orlando di Lasso",
+    "description":"Lassus Dominus scit cogitationes hominum",    
+    "options": {
+        "transposition_chromatic": true,
+        "transposition_diatonic": true,
+        "inversion_chromatic": true,
+        "inversion_diatonic": true,
+        "shifts": true,
+        "augmentation": true,
+        "diminution":true
+    }
+}

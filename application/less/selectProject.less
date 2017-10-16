@@ -1,0 +1,116 @@
+@import "variables";
+
+.selectProjectContainer {
+  input {
+    padding: 3px;
+    width: 200px;
+    border-radius: 5px;
+    height: 20px;
+    color: black;
+
+    &[type="checkbox"] {
+      width: 20px;
+    }
+  }
+
+  textarea {
+    border-radius: 5px;
+    color: black;
+  }
+
+  .divSeparator {
+    border-bottom: solid 1px @separatorColor;
+    padding-bottom: 5px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-direction: row;
+    height: calc(~"100vh - 120px");
+
+    .projectSelect {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border-right: solid 1px @separatorColor;
+
+
+
+      .projectItem {
+        cursor: pointer;
+        height: 30px;
+        width: 200px;
+        padding: 5px;
+        * {
+          color: white;
+        }
+
+        &:hover {
+          background-color: @buttonColorHover;
+          * {
+            color: black;
+          }
+
+        }
+
+        .projectItemName {
+          font-weight: bold;
+        }
+        .projectItemDescription {
+          font-weight: normal;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .projectItemSelected {
+      background-color: white;
+      cursor: pointer;
+      height: 30px;
+      width: 200px;
+      padding: 5px;
+      * {
+        color: black;
+      }
+
+    }
+
+    .projectProperties {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+
+      .propertiesTitle {
+        font-size: 20px;
+        padding: 10px;
+      }
+
+      .propertiesContent {
+        padding: 10px;
+      }
+
+      .propertiesName {
+        font-size: 13px;
+        width: 100px;
+        padding: 10px;
+      }
+
+      .propertiesNameCb {
+        font-size: 13px;
+        padding-left: 10px;
+      }
+
+      .projectPreviewImage {
+        width: 616px;
+        height: 120px;
+        background-color: white;
+        background: url("../images/paper.png");
+      }
+    }
+  }
+
+}

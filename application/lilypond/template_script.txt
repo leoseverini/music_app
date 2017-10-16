@@ -1,0 +1,26 @@
+\version "2.18.2"
+\language "english"
+
+%%%replaceNotes%%%
+
+multiStaffA = \new Staff <<
+  \key c \major   
+  \notes
+  \\
+  \compareNotes
+>>
+
+%%%replaceTitle%%%
+\score {
+  <<    
+    \multiStaffA
+  >>
+  \layout { 
+  \context {
+      \Staff
+      \omit Stem
+      whichBar = #""
+      \remove "Time_signature_engraver"
+    } 
+  }  
+}
