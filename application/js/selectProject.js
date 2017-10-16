@@ -64,7 +64,7 @@ const {lsProjects} = require("./my_modules/lsProjects.js");
         };
 
         $scope.a.createPreview = function () {
-            var projectDir = $scope.selectedProject.dir;
+            let projectDir = $scope.selectedProject.dir;
             lygen.loadNotes();
             lygen.createBase(projectDir, function () {
                 // $scope.a.refreshImagePreview();
@@ -72,11 +72,13 @@ const {lsProjects} = require("./my_modules/lsProjects.js");
         };
 
         $scope.a.startAnalysis = function () {
-            var projectName = $scope.selectedProject.dir;
-            lygen.createTransformations(projectName);
+            let projectName = $scope.selectedProject.dir;
+            lygen.createTransformations(projectName, function(){
+                lygen.createTranformationsFiles(projectName);
+            });
         };
 
-        $scope.a.openPorjectEditor = function () {
+        $scope.a.openProjectEditor = function () {
             $scope.mainProperties.dialog = {
                 title: "Edit Cantus Firmus",
                 content: "application/html/keyboard.html",
@@ -90,11 +92,18 @@ const {lsProjects} = require("./my_modules/lsProjects.js");
         };
 
         $scope.a.showTransformPreview = function () {
+            $scope.mainProperties.dialog = {
+                title: "Preview Transformations",
+                content: "application/html/showResults.html",
+                closeButton: function () {
+                    $scope.mainProperties.showDialog = false;
+                }
+            };
             $scope.mainProperties.showDialog = true;
         };
 
         $scope.CreateNewProject = function () {
-            var pro = new lsProjects();
+            let pro = new lsProjects();
             pro.createProject(function () {
                 loadProjectsFolder(true);
             });

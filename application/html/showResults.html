@@ -1,7 +1,11 @@
-<div ng-controller="showResultsCtrl" class="mainDiv">
-    <h1 ng-click="readFiles();">Results</h1>
-    <div ng-repeat="image in images">
-        <h3>{{image}}</h3>
-        <img src="{{image}}"/>
+<div ng-controller="showResultsCtrl" class="showResults">
+    <h4 ng-click="readFiles();">Results</h4>
+    <div class="mainDiv">
+        <div ng-repeat="image in images">
+            <h3>{{image}}</h3>
+            <div class="flexHor flexCenter projectPreviewImage">
+                <img height="100px" src="{{image}}"/>
+            </div>
+        </div>
     </div>
 </div>

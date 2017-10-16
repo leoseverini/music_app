@@ -54,7 +54,7 @@ lyGenerator.prototype.getInputNotes = function () {
     return this.inputNotes.split(",");
 };
 
-lyGenerator.prototype.createTransformations = function (projectName) {
+lyGenerator.prototype.createTransformations = function (projectName, callback) {
     let outFileProject = './projects/' + projectName;
     let outFileBase = outFileProject + '/data/project_transformations.json';
 
@@ -63,21 +63,21 @@ lyGenerator.prototype.createTransformations = function (projectName) {
     let trans = {
         "original": transform.getBase().str,
         "inverse": transform.getInverse().str,
-        "augmented": {
-            "augmented_2": transform.getAugmentation(2).str,
-            "augmented_4": transform.getAugmentation(4).str,
-            "augmented_8": transform.getAugmentation(8).str,
-            "augmented_16": transform.getAugmentation(16).str
-        }
+        "augmentation_2": transform.getAugmentation(2).str,
+        "augmentation_4": transform.getAugmentation(4).str,
+        "augmentation_8": transform.getAugmentation(8).str,
+        "augmentation_16": transform.getAugmentation(16).str,
+        "diminution_2": transform.getDiminution(2).str,
+        "diminution_4": transform.getDiminution(4).str
     };
 
     let transS = JSON.stringify(trans);
 
-
     saveToFile(outFileBase, transS, function () {
         console.log("Transformation file created : " + projectName);
+        if (callback)
+            callback();
     });
-
 };
 
 lyGenerator.prototype.createBase = function (projectName, callback) {
@@ -100,18 +100,32 @@ lyGenerator.prototype.createBase = function (projectName, callback) {
             if (callback) callback();
         }, "base");
     });
+};
 
-    // Create Inversion
-    //arrNotes = base.getInverse(); 
-    //strNotes = getLyString(arrNotes.notes, arrNotes.octaves, arrNotes.durations);
-    //newTemplate = template.replace(notesToReplace, strNotes);
+lyGenerator.prototype.createTranformationsFiles = function (projectName, callback) {
+    let template = this.baseTemplate;
+    let outFileProject = './projects/' + projectName + '/';
 
-    //outFileBase = outFileProject + '/invert.ly'
-    //saveToFile(outFileBase, newTemplate, function(){
-    //    executeLyTemplate(projectName, outFileBase, callAtEnd, "invert");
-    //});
-}
+    let jsonFile = JSON.parse(fs.readFileSync(outFileProject + '/data/project_transformations.json', 'utf8'));
 
+    for (let obj in jsonFile) {
+        let notes = jsonFile[obj];
+        let item = new lyTransform(notes.toString());
+        console.log("" + obj + " : " + item.base);
+
+        // Create LY File
+        let strNotes = getLyString(item.notes, item.octaves, item.durations);
+        let newTemplate = template.replace(notesToReplace, strNotes);
+        console.log(newTemplate);
+
+        let outFileBase = outFileProject + '/data/' + obj + '.ly';
+        saveToFile(outFileBase, newTemplate, function () {
+            executeLyTemplate(projectName, outFileBase, function () {
+                if (callback) callback();
+            }, obj);
+        });
+    }
+};
 
 var saveToFile = function (outFileName, data, callAtEnd) {
     fs.writeFile(outFileName, data, function (err) {
