@@ -60,16 +60,22 @@ lyGenerator.prototype.createTransformations = function (projectName, callback) {
 
     let transform = new lyTransform(this.inputNotes);
 
-    let trans = {
-        "original": transform.getBase().str,
-        "inverse": transform.getInverse().str,
-        "augmentation_2": transform.getAugmentation(2).str,
-        "augmentation_4": transform.getAugmentation(4).str,
-        "augmentation_8": transform.getAugmentation(8).str,
-        "augmentation_16": transform.getAugmentation(16).str,
-        "diminution_2": transform.getDiminution(2).str,
-        "diminution_4": transform.getDiminution(4).str
-    };
+    let trans = [
+        {"name": "original", "notes": transform.getBase().str},
+
+        {"name": "transposition_1", "notes": transform.getChromaticTransposition(1).str},
+        {"name": "transposition_2", "notes": transform.getChromaticTransposition(2).str},
+
+        {"name": "inverse", "notes": transform.getInverse().str},
+
+        {"name": "augmentation_2", "notes": transform.getAugmentation(2).str},
+        {"name": "augmentation_4", "notes": transform.getAugmentation(4).str},
+        {"name": "augmentation_8", "notes": transform.getAugmentation(8).str},
+        {"name": "augmentation_16", "notes": transform.getAugmentation(16).str},
+        {"name": "diminution_2", "notes": transform.getDiminution(2).str},
+        {"name": "diminution_4", "notes": transform.getDiminution(4).str}
+
+    ];
 
     let transS = JSON.stringify(trans);
 
@@ -108,26 +114,33 @@ lyGenerator.prototype.createTranformationsFiles = function (projectName, callbac
 
     let jsonFile = JSON.parse(fs.readFileSync(outFileProject + '/data/project_transformations.json', 'utf8'));
 
+    let count = 0;
+
     for (let obj in jsonFile) {
-        let notes = jsonFile[obj];
+        let notes = jsonFile[obj].notes;
+        let name = jsonFile[obj].name;
         let item = new lyTransform(notes.toString());
-        console.log("" + obj + " : " + item.base);
+        console.log("" + name + " : " + item.base);
 
         // Create LY File
         let strNotes = getLyString(item.notes, item.octaves, item.durations);
         let newTemplate = template.replace(notesToReplace, strNotes);
         console.log(newTemplate);
 
-        let outFileBase = outFileProject + '/data/' + obj + '.ly';
+        let outFileBase = outFileProject + '/data/' + name + '.ly';
         saveToFile(outFileBase, newTemplate, function () {
             executeLyTemplate(projectName, outFileBase, function () {
-                if (callback) callback();
-            }, obj);
+                // Execute on the last callback
+                count++;
+                if (count == jsonFile.length)
+                    if (callback) callback();
+            }, name);
         });
     }
+    // if (callback) callback();
 };
 
-var saveToFile = function (outFileName, data, callAtEnd) {
+let saveToFile = function (outFileName, data, callAtEnd) {
     fs.writeFile(outFileName, data, function (err) {
         if (err) {
             return console.log(err);
@@ -141,10 +154,10 @@ var saveToFile = function (outFileName, data, callAtEnd) {
     });
 }
 
-var exec = require('child_process').exec;
+let exec = require('child_process').exec;
 
-var executeLyTemplate = function (projectName, file, callAtEnd, outputName) {
-    var options = {cwd: "projects/" + projectName + "/data"};
+let executeLyTemplate = function (projectName, file, callAtEnd, outputName) {
+    let options = {cwd: "projects/" + projectName + "/data"};
 
     exec('"%ProgramFiles(x86)%/LilyPond/usr/bin/lilypond.exe" -dpreview -dno-print-pages -dbackend=svg ' + outputName + '.ly', options,
         function callback(error, stdout, stderr) {
@@ -155,21 +168,23 @@ var executeLyTemplate = function (projectName, file, callAtEnd, outputName) {
 }
 
 
-var getNoteByIndex = function (noteName, noteOctave, noteDuration) {
+let getNoteByIndex = function (noteName, noteOctave, noteDuration) {
     if (!noteName)
         return "";
 
-    var octaves = [",,,", ",,", ",", "", "'", "''", "'''", "''''"];
+    let octaves = [",,,", ",,", ",", "", "'", "''", "'''", "''''"];
 
 
-    var octv = "";
-    var nt = "";
+    let octv = "";
+    let nt = "";
 
     nt = noteName.toLowerCase();
     octv = octaves[noteOctave];
-    // nt = nt.replace("#", "s");
-    // nt = nt.replace("b", "f");
-    var nd = noteDuration.trim();
+
+    let nd = noteDuration.trim();
+    nd = nd.replace("b", "\\breve");
+    nd = nd.replace("l", "\\longa");
+
     return nt + "" + octv + nd + " ";
 };
 

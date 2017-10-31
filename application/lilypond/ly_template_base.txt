@@ -4,6 +4,7 @@
 %%%replaceNotes%%%
 
 multiStaffA = \new Staff <<
+  \override Staff.NoteHead.style = #'baroque
   \key c \major   
   \notes
 >>

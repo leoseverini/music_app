@@ -1,17 +1,14 @@
 \version "2.18.2"
 \language "english"
 
-%%%replaceNotes%%%
+notes = {c'8 e'8 f'4 e'8 d'16 c'16 a8 b4 c'2 }
 
 multiStaffA = \new Staff <<
   \override Staff.NoteHead.style = #'baroque
   \key c \major   
   \notes
-  \\
-  \compareNotes
 >>
 
-%%%replaceTitle%%%
 \score {
   <<    
     \multiStaffA
@@ -19,7 +16,6 @@ multiStaffA = \new Staff <<
   \layout { 
   \context {
       \Staff
-      \omit Stem
       whichBar = #""
       \remove "Time_signature_engraver"
     } 

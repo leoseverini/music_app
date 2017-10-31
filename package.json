@@ -20,6 +20,7 @@
     "fs-extra": "^4.0.2",
     "gulp": "^3.9.1",
     "gulp-less": "^3.3.2",
+    "ipc": "0.0.1",
     "soundfont-player": "^0.10.6"
   }
 }

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="58.41mm" height="14.67mm" viewBox="8.5358 -0.0240 33.2367 8.3500">
+<line transform="translate(8.5358, 5.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="33.1867" y2="0.0000"/>
+<line transform="translate(8.5358, 4.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="33.1867" y2="0.0000"/>
+<line transform="translate(8.5358, 3.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="33.1867" y2="0.0000"/>
+<line transform="translate(8.5358, 2.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="33.1867" y2="0.0000"/>
+<line transform="translate(8.5358, 1.7760)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0.0000" x2="33.1867" y2="0.0000"/>
+<rect transform="translate(0.0000, 6.7760)" x="13.5718" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 6.7760)" x="27.6367" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 6.7760)" x="30.2239" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 7.7760)" x="30.2239" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 6.7760)" x="32.8111" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<rect transform="translate(0.0000, 6.7760)" x="36.5273" y="-0.1000" width="1.9743" height="0.2000" ry="0.1000" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:4:39:40">
+<path transform="translate(30.5530, 7.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(31.8041, 3.7760)" x="-0.0650" y="-0.2500" width="0.1300" height="4.0622" ry="0.0400" fill="currentColor"/>
+<path transform="translate(31.8691, 3.5660) scale(0.0040, -0.0040)" d="M0 -213v-5c0 -111 86 -193 146 -284c3 11 4 23 4 35c0 93 -85 187 -150 254zM0 0c0 -175 193 -292 193 -467c0 -29 -7 -58 -19 -84c17 -35 29 -71 29 -111c0 -36 -9 -72 -24 -105c18 -35 30 -72 30 -113c0 -60 -16 -119 -42 -173c-5 -8 -12 -11 -19 -11
+c-13 0 -26 11 -23 27c26 49 42 102 42 157c0 91 -95 175 -167 233v-103h-16v750h16zM0 -430v-5c0 -112 89 -194 151 -285c6 19 9 38 9 58c0 90 -91 173 -160 232z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:4:34:35">
+<path transform="translate(27.9658, 6.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(29.2169, 3.7760)" x="-0.0650" y="-2.0000" width="0.1300" height="4.8122" ry="0.0400" fill="currentColor"/>
+<path transform="translate(29.2819, 1.8160) scale(0.0040, -0.0040)" d="M0 -213v-12c0 -112 85 -197 145 -289c3 13 5 27 5 40c0 95 -85 191 -150 261zM0 0c0 -177 193 -297 193 -474c0 -31 -7 -62 -19 -90c17 -35 29 -72 29 -113c0 -39 -11 -77 -29 -112c17 -35 29 -72 29 -113c0 -33 -14 -65 -35 -91c24 -41 41 -85 41 -134
+c0 -61 -16 -121 -42 -176c-5 -8 -12 -11 -19 -11c-13 0 -26 11 -23 27c26 50 42 104 42 160c0 93 -95 180 -167 240v-113h-16v1000h16zM0 -438v-12c0 -114 88 -198 148 -292c8 21 12 42 12 65c0 92 -91 178 -160 239zM0 -662v-13c0 -110 83 -192 144 -281c10 16 16 35 16 54
+c0 92 -91 179 -160 240z" fill="currentColor"/>
+<path transform="translate(38.1725, 3.3160) scale(0.0040, -0.0040)" d="M0 0c0 -198 209 -335 209 -533c0 -71 -16 -141 -42 -207c-5 -8 -12 -12 -19 -12c-13 0 -26 11 -23 27c26 61 42 126 42 192c0 104 -95 208 -167 283h-16v250h16z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:4:43:44">
+<path transform="translate(33.1401, 7.2760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(34.3913, 3.7760)" x="-0.0650" y="0.0000" width="0.1300" height="3.3122" ry="0.0400" fill="currentColor"/>
+<path transform="translate(34.4563, 3.8160) scale(0.0040, -0.0040)" d="M0 0c0 -178 203 -292 203 -470c0 -33 -9 -65 -23 -95c18 -37 29 -75 29 -117c0 -63 -16 -125 -42 -183c-5 -8 -12 -12 -19 -12c-13 0 -26 11 -23 27c26 52 42 110 42 168c0 97 -95 191 -167 257v-75h-16v500h16zM153 -517c5 15 7 31 7 47c0 96 -91 190 -160 257
+c0 -118 91 -206 153 -304z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:4:47:48">
+<path transform="translate(36.8563, 6.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(38.1075, 3.7760)" x="-0.0650" y="-0.5000" width="0.1300" height="3.3122" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:4:9:10">
+<path transform="translate(13.9008, 6.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:4:19:20">
+<path transform="translate(19.0752, 5.2760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(20.3264, 3.7760)" x="-0.0650" y="-2.0000" width="0.1300" height="3.3122" ry="0.0400" fill="currentColor"/>
+<path transform="translate(20.3914, 1.8160) scale(0.0040, -0.0040)" d="M0 0c0 -178 203 -292 203 -470c0 -33 -9 -65 -23 -95c18 -37 29 -75 29 -117c0 -63 -16 -125 -42 -183c-5 -8 -12 -12 -19 -12c-13 0 -26 11 -23 27c26 52 42 110 42 168c0 97 -95 191 -167 257v-75h-16v500h16zM153 -517c5 15 7 31 7 47c0 96 -91 190 -160 257
+c0 -118 91 -206 153 -304z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:8:2:3">
+</a>
+<rect transform="translate(15.1520, 3.7760)" x="-0.0650" y="-1.2500" width="0.1300" height="4.0622" ry="0.0400" fill="currentColor"/>
+<path transform="translate(15.2170, 2.5660) scale(0.0040, -0.0040)" d="M0 -213v-5c0 -111 86 -193 146 -284c3 11 4 23 4 35c0 93 -85 187 -150 254zM0 0c0 -175 193 -292 193 -467c0 -29 -7 -58 -19 -84c17 -35 29 -71 29 -111c0 -36 -9 -72 -24 -105c18 -35 30 -72 30 -113c0 -60 -16 -119 -42 -173c-5 -8 -12 -11 -19 -11
+c-13 0 -26 11 -23 27c26 49 42 102 42 157c0 91 -95 175 -167 233v-103h-16v750h16zM0 -430v-5c0 -112 89 -194 151 -285c6 19 9 38 9 58c0 90 -91 173 -160 232z" fill="currentColor"/>
+<path transform="translate(9.3358, 4.7760) scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:4:14:15">
+<path transform="translate(16.4880, 5.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(17.7392, 3.7760)" x="-0.0650" y="-2.2500" width="0.1300" height="4.0622" ry="0.0400" fill="currentColor"/>
+<path transform="translate(17.8042, 1.5660) scale(0.0040, -0.0040)" d="M0 -213v-5c0 -111 86 -193 146 -284c3 11 4 23 4 35c0 93 -85 187 -150 254zM0 0c0 -175 193 -292 193 -467c0 -29 -7 -58 -19 -84c17 -35 29 -71 29 -111c0 -36 -9 -72 -24 -105c18 -35 30 -72 30 -113c0 -60 -16 -119 -42 -173c-5 -8 -12 -11 -19 -11
+c-13 0 -26 11 -23 27c26 49 42 102 42 157c0 91 -95 175 -167 233v-103h-16v750h16zM0 -430v-5c0 -112 89 -194 151 -285c6 19 9 38 9 58c0 90 -91 173 -160 232z" fill="currentColor"/>
+<path transform="translate(24.1076, 1.5660) scale(0.0040, -0.0040)" d="M0 -213v-5c0 -111 86 -193 146 -284c3 11 4 23 4 35c0 93 -85 187 -150 254zM0 0c0 -175 193 -292 193 -467c0 -29 -7 -58 -19 -84c17 -35 29 -71 29 -111c0 -36 -9 -72 -24 -105c18 -35 30 -72 30 -113c0 -60 -16 -119 -42 -173c-5 -8 -12 -11 -19 -11
+c-13 0 -26 11 -23 27c26 49 42 102 42 157c0 91 -95 175 -167 233v-103h-16v750h16zM0 -430v-5c0 -112 89 -194 151 -285c6 19 9 38 9 58c0 90 -91 173 -160 232z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:4:29:30">
+<path transform="translate(25.3786, 6.2760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(26.6298, 3.7760)" x="-0.0650" y="-2.5000" width="0.1300" height="4.8122" ry="0.0400" fill="currentColor"/>
+<path transform="translate(26.6948, 1.3160) scale(0.0040, -0.0040)" d="M0 -213v-12c0 -112 85 -197 145 -289c3 13 5 27 5 40c0 95 -85 191 -150 261zM0 0c0 -177 193 -297 193 -474c0 -31 -7 -62 -19 -90c17 -35 29 -72 29 -113c0 -39 -11 -77 -29 -112c17 -35 29 -72 29 -113c0 -33 -14 -65 -35 -91c24 -41 41 -85 41 -134
+c0 -61 -16 -121 -42 -176c-5 -8 -12 -11 -19 -11c-13 0 -26 11 -23 27c26 50 42 104 42 160c0 93 -95 180 -167 240v-113h-16v1000h16zM0 -438v-12c0 -114 88 -198 148 -292c8 21 12 42 12 65c0 92 -91 178 -160 239zM0 -662v-13c0 -110 83 -192 144 -281c10 16 16 35 16 54
+c0 92 -91 179 -160 240z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit://C:/University/Alon/myApp/projects/0/data/augmentation_8.ly:4:24:25">
+<path transform="translate(22.7914, 5.7760) scale(0.0040, -0.0040)" d="M220 138c56 0 109 -29 109 -91c0 -72 -56 -121 -103 -149c-36 -21 -76 -36 -117 -36c-56 0 -109 29 -109 91c0 72 56 121 103 149c36 21 76 36 117 36z" fill="currentColor"/>
+</a>
+<rect transform="translate(24.0426, 3.7760)" x="-0.0650" y="-2.2500" width="0.1300" height="4.0622" ry="0.0400" fill="currentColor"/>
+</svg>

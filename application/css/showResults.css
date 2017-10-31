@@ -1,6 +1,6 @@
 .showResults .mainDiv {
   height: 350px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .showResults .projectPreviewImage {
   width: 616px;

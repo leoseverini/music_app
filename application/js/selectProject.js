@@ -1,3 +1,6 @@
+const {ipcRenderer} = require('electron');
+;
+
 const fs = require("fs");
 const {lyGenerator} = require("./my_modules/lygenerator.js");
 const {lsProjects} = require("./my_modules/lsProjects.js");
@@ -72,10 +75,7 @@ const {lsProjects} = require("./my_modules/lsProjects.js");
         };
 
         $scope.a.startAnalysis = function () {
-            let projectName = $scope.selectedProject.dir;
-            lygen.createTransformations(projectName, function(){
-                lygen.createTranformationsFiles(projectName);
-            });
+
         };
 
         $scope.a.openProjectEditor = function () {
@@ -92,14 +92,27 @@ const {lsProjects} = require("./my_modules/lsProjects.js");
         };
 
         $scope.a.showTransformPreview = function () {
+            $scope.mainProperties.showDialog = false;
             $scope.mainProperties.dialog = {
                 title: "Preview Transformations",
-                content: "application/html/showResults.html",
+                content: "application/html/transformationPreview.html",
                 closeButton: function () {
                     $scope.mainProperties.showDialog = false;
                 }
             };
-            $scope.mainProperties.showDialog = true;
+
+            let projectName = $scope.selectedProject.dir;
+            lygen.createTransformations(projectName, function () {
+                lygen.createTranformationsFiles(projectName, function () {
+                    $timeout(function () {
+                        $scope.mainProperties.showDialog = true;
+                    }, 0)
+
+                });
+            });
+
+            // console.log('SEND: preview-window-show');
+            // ipcRenderer.send('preview-window-show', 'an-argument')
         };
 
         $scope.CreateNewProject = function () {
